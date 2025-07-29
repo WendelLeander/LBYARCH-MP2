@@ -1,12 +1,12 @@
 # LBYARCH-MP2
 # SIMD Acceleration Project (C + x86-64 Assembly)
-# by: Wendel Leander and Owen San Luis
+### by: Wendel Leander and Owen San Luis
 
 ## i.) Execution Time and Short Performance Analysis
 
 ![Execution Time](Execution%20Time.png)
 
-As shown above, testing with `Y = 10`, `100`, and `10000` almost always results in `0.00 ms` average execution time. However, `Y = 100000` occasionally shows a small non-zero value, indicating that performance overhead only becomes noticeable with significantly large input sizes.
+As shown above, testing with `Y = 10`, `100`, and `1000` almost always results in `0.00 ms` average execution time. However, `Y = 10000` occasionally shows a small non-zero value, indicating that performance overhead only becomes noticeable with significantly large input sizes.
 
 ## ii.) Screenshot of Program Output with Correctness Check
 
