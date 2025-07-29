@@ -3,7 +3,7 @@
 #include <string.h>
 
 
-void computeAcceleration(float* matrix, int num_cars, int* output);
+void extern computeAcceleration(float* matrix, int num_cars, int* output);
 
 int main() 
 {
@@ -18,10 +18,11 @@ int main()
 
         float* matrix = malloc(sizeof(float) * Y * 3);
         int* output = malloc(sizeof(int) * Y);
+        int i;
 
         printf("Enter each row per car:\n");
         printf("Format: InitialVelocity FinalVelocity Time\n");
-        for (int i = 0; i < Y; i++) 
+        for (i = 0; i < Y; i++) 
         {
             int scanned;
             do 
@@ -44,7 +45,7 @@ int main()
         computeAcceleration(matrix, Y, output);
 
         printf("Acceleration results:\n");
-        for (int i = 0; i < Y; i++) 
+        for (i = 0; i < Y; i++) 
         {
             printf("%d\n", output[i]);
         }
