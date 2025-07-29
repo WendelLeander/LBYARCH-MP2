@@ -1,7 +1,7 @@
 # LBYARCH-MP2
-# SIMD Acceleration Project (C + x86-64 Assembly)
-### by: Wendel Leander and Owen San Luis
-
+# Acceleration Project (C + x86-64 Assembly)
+### By: Wendel Leander and Owen San Luis
+### Section: S13B
 ## i.) Execution Time and Short Performance Analysis
 
 ![Execution Time](Execution%20Time.png)
